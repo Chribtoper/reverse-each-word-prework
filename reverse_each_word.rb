@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
   array.each do |string|
     newarray = string.split("")
     newarray.reverse
-    newarray.join
+    newarray.join("")
     finalarray.push(newarray)
     newarray = []
   end
