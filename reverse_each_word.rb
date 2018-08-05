@@ -8,6 +8,6 @@ array.each do |string|
   finalarray.push(newstring)
   newarray = []
 end
-final = finalarray.join
+final = finalarray.join(" ")
 end
   
