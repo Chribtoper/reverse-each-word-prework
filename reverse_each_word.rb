@@ -2,9 +2,7 @@ def reverse_each_word(sentence)
 array = sentence.split
 finalarray = []
 array.collect do |string|
-  newarray = string.split(//)
-  newarray.reverse
-  newstring = newarray.join
+  newstring = string.reverse
   finalarray.push(newstring)
   newarray = []
 end
